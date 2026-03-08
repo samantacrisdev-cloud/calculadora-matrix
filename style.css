@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #00ff00;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Canvas do fundo */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Caixa da calculadora */
+
+.calculadora {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00ff00;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #00ff00;
+    font-family: monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* canvas do fundo */
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* calculadora */
+
+.calculadora {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #00ff00;
+    text-align: center;
+}
+
+/* inputs */
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    background: black;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+}
+
+/* botões */
+
+.botoes {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background: black;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #00ff00;
+    color: black;
+}
+
+/* resultado */
+
+#resultado {
+    margin-top: 20px;
+    font-size: 22px;
+}
